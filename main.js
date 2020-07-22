@@ -9,19 +9,19 @@
   const n = Math.random();
   if(n<0.2){
     btn.textContent = 'カレーライス';
-    alert('今夜は'+btn.textContent+'です');
+    
   }else if(n<0.4){
     btn.textContent = '寿司';
-    alert('今夜は'+btn.textContent+'です');
+    
   }else if(n<0.6){
     btn.textContent = 'スパゲッティ';
-    alert('今夜は'+btn.textContent+'です');
+   
   }else if(n<0.8){
     btn.textContent = 'ハンバーガー';
-    alert('今夜は'+btn.textContent+'です');
+    
   }else{
     btn.textContent = 'ラーメン';
-    alert('今夜は'+btn.textContent+'です');
+    
   }
   });
 }
